@@ -1,0 +1,39 @@
+.title-indices {
+  color: #3179a7;
+  display: flex;  
+  justify-content: space-evenly;
+  /* background-color: red; */
+  width: 600px;
+ }
+
+.title-home,
+.title-login,
+.title-contact,
+.title-courses {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+.title-home::after,
+.title-login::after,
+.title-contact::after,
+.title-courses::after {
+  content: "";
+  background-color: #1d2a3f;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px; 
+  transition: width 0.4s ease-in-out; 
+}
+
+.title-home:hover::after,
+.title-login:hover::after,
+.title-contact:hover::after,
+.title-courses:hover::after {
+  width: 100%;
+}

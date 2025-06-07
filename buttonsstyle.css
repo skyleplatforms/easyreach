@@ -1,0 +1,74 @@
+.team-button-up {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color:#0a6da7;
+  color: white;
+  margin-right: 15px;
+}
+
+
+.team-button-in {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color:#0a6da7;
+  color: white;
+  margin-right: 15px;
+}
+
+
+.employers-button-in {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color:#0a6da7;
+  color: white;
+  margin-right: 15px;
+}
+
+
+.employers-button-up  {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color:#0a6da7;
+  color: white;
+  margin-right: 15px;
+}
+
+
+.employers-button-find {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color:#0a6da7;
+  color: white;
+  margin-right: 15px;
+}
+
+
+.teambuttons {
+  padding-left: 10px;
+}
+
+.employersbuttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
